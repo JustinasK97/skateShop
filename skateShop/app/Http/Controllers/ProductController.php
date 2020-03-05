@@ -3,12 +3,12 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
 use App\Category;
 use App\Product;
 use File;
-use Gate;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Gate;
 
 class ProductController extends Controller
 {
@@ -52,7 +52,7 @@ class ProductController extends Controller
     {
         $products = Product::all();
         $categories = Category::all();
-        return view('shop.pages.control_product', compact('products', 'categories')); //psl
+        return view('shop.pages.control_product', compact('products', 'categories'));
     }
 
     public function warningProduct(Product $product)
