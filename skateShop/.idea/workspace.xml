@@ -1,7 +1,403 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92b969be-6f37-4504-9b23-1eadf56f8e23" name="Default Changelist" comment="" />
+    <list default="true" id="92b969be-6f37-4504-9b23-1eadf56f8e23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_05_065727_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_05_082425_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_05_082517_create_orders_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/danger.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/danger.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/info.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/info.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/secondary.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/secondary.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/success.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/success.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/warning.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/accents/warning.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/extras.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_custom-sliders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_overrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/danger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/info.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/secondary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/success.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/accent-variations/warning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_main-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_main-footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_main-navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_main-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/blocks/_page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/components/_card-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/components/_error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/plugins/_quill.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/shards-dashboards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/templates/_blog-add-new-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/templates/_blog-overview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/templates/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/utilities/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/shards-dashboards.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/shards-dashboards.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatars/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/content-management/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/control.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-secondary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shards-dashboards-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-blog-new-post.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-blog-new-post.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-blog-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-blog-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-components-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app/app-components-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/extras.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/shards-dashboards.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/shards-dashboards.1.1.0.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/shards-dashboards.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/_partials/aside.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/_partials/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/_partials/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/add_category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/add_product.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/change_status.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/control_category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/control_product.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/edit_product.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/order.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/warning_category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/warning_order.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shop/pages/warning_product.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/Design Assets/Shards_Dashboard_Lite_UI_Kit_1.1.0.sketch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/DesignRevision.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/add-new-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/components-blog-posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/form-components.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/avatars/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/avatars/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/avatars/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/avatars/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/content-management/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/shards-dashboards-logo-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/shards-dashboards-logo-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/shards-dashboards-logo-secondary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/shards-dashboards-logo-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/shards-dashboards-logo-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/images/shards-dashboards-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/app/app-blog-new-post.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/app/app-blog-new-post.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/app/app-blog-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/app/app-blog-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/app/app-components-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/app/app-components-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/extras.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/shards-dashboards.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/shards-dashboards.1.1.0.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/scripts/shards-dashboards.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/danger.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/danger.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/info.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/info.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/secondary.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/secondary.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/success.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/success.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/warning.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/accents/warning.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/extras.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_custom-sliders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_overrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/accent-variations/danger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/accent-variations/info.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/accent-variations/secondary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/accent-variations/success.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/accent-variations/warning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/blocks/_main-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/blocks/_main-footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/blocks/_main-navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/blocks/_main-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/blocks/_page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/components/_card-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/components/_error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/plugins/_quill.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/shards-dashboards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/templates/_blog-add-new-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/templates/_blog-overview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/templates/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/utilities/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/shards-dashboards.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/styles/shards-dashboards.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/HTML/user-profile-lite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/._Design Assets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/._DesignRevision.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/._HTML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/._LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/Design Assets/._Shards_Dashboard_Lite_UI_Kit_1.1.0.sketch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/._images" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/._scripts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/._styles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/._avatars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/._content-management" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/._shards-dashboards-logo-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/._shards-dashboards-logo-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/._shards-dashboards-logo-secondary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/._shards-dashboards-logo-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/._shards-dashboards-logo-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/._shards-dashboards-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/avatars/._0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/avatars/._1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/avatars/._2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/avatars/._3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/images/content-management/._9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/._app" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/._extras.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/._shards-dashboards.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/._shards-dashboards.1.1.0.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/._shards-dashboards.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/app/._app-blog-new-post.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/app/._app-blog-new-post.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/app/._app-blog-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/app/._app-blog-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/app/._app-components-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/scripts/app/._app-components-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/._accents" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/._extras.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/._scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/._shards-dashboards.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/._shards-dashboards.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._danger.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._danger.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._info.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._info.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._secondary.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._secondary.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._success.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._success.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._warning.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/accents/._warning.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__custom-sliders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__overrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/.__variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/._accent-variations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/._blocks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/._components" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/._plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/._shards-dashboards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/._templates" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/._utilities" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/accent-variations/._danger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/accent-variations/._info.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/accent-variations/._secondary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/accent-variations/._success.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/accent-variations/._warning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/blocks/.__main-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/blocks/.__main-footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/blocks/.__main-navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/blocks/.__main-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/blocks/.__page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/components/.__card-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/components/.__error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/plugins/.__quill.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/templates/.__blog-add-new-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/templates/.__blog-overview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/templates/.__common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/utilities/.__borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/utilities/.__general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_admin_side/__MACOSX/HTML/styles/scss/utilities/.__text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/css/shop-homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/home-page/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/css/shop-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template_user_side/item-page/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +408,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -113,13 +512,18 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1YhMElOrqyMqu0ZKva9QXGNuBZk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/admin/HTML" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -140,17 +544,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583390263978</updated>
-      <workItem from="1583390265569" duration="548000" />
+      <workItem from="1583390265569" duration="8632000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583393103803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583393103803" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583392759331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583392759331" />
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1583398041428">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583398041428" />
     <state x="191" y="170" key="FileChooserDialogImpl" timestamp="1583390610874">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="191" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583390610874" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1583393698702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1583393698702" />
   </component>
 </project>
